@@ -62,7 +62,6 @@ PRODUCT_PACKAGES += \
                     libsensors.prefusion.mpl520.nvs \
                     libmplmpu \
                     libmllite \
-                    libril-icera \
                     icera-switcherd \
                     downloader \
                     tlk_daemon \
