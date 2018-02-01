@@ -19,7 +19,7 @@ $(call inherit-product, vendor/nvidia/shield/app/blakepairing.mk)
 $(call inherit-product, vendor/nvidia/shield/app/consoleui.mk)
 #$(call inherit-product, vendor/nvidia/shield/app/nvcamera.mk)
 $(call inherit-product, vendor/nvidia/shield/ussrd/ussrd.mk)
-$(call inherit-product, vendor/nvidia/shield/widevine/widevine.mk)
+#$(call inherit-product, vendor/nvidia/shield/widevine/widevine.mk)
 
 # Firmware
 PRODUCT_PACKAGES += \
@@ -77,8 +77,6 @@ PRODUCT_PACKAGES += \
 # Scripts / non-binary
 PRODUCT_PACKAGES += run_ss_status.sh \
                     gps_select \
-                    eks2.dat \
-                    eks2_darcy.dat \
                     hdcp1x \
                     hdcp2x \
                     hdcp2xtest
